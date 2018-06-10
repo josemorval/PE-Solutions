@@ -17,8 +17,7 @@ int main()
     {
         if (prime[p] == 0)
         {
-        	np++;
-
+            np++;
             for (int i=p*2; i<=n; i += p) prime[i] = 1;
         }
     }
